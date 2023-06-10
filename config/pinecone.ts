@@ -6,8 +6,8 @@
 //   throw new Error('Missing Pinecone index name in .env file');
 // }
 
-const PINECONE_INDEX_NAME = 'ifrs-v1';
+const PINECONE_INDEX_NAME = 'index';
 
-const PINECONE_NAME_SPACE = 'demo'; //namespace is optional for your vectors
+const PINECONE_NAME_SPACE = 'namespace'; //namespace is optional for your vectors
 
 export { PINECONE_INDEX_NAME, PINECONE_NAME_SPACE };
